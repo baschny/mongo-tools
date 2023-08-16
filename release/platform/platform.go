@@ -388,6 +388,14 @@ var platforms = []Platform{
 		BuildTags: defaultBuildTags,
 	},
 	{
+		Name:      "debian11",
+		Arch:      ArchArm64,
+		OS:        OSLinux,
+		Pkg:       PkgDeb,
+		Repos:     []Repo{RepoEnterprise, RepoOrg},
+		BuildTags: defaultBuildTags,
+	},
+	{
 		Name:      "debian81",
 		Arch:      ArchX86_64,
 		OS:        OSLinux,
